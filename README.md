@@ -27,6 +27,7 @@
 目录文件有baseScript和appScript,baseScript主要放一些通用的模块,appScript主要放一些游戏用到的逻辑文件。resource是项目的资源文件。
 
 所有的prefab都是有BasePrefabController来控制。其提供了类似React的组件控制形式，子类可以实现InitState,返回数据。然后如果其中的数据发生了改变会触发对应的函数。比如：（下面是消息组件的部分实现）
+
 class MsgBoxController extends BasePrefabController {
     @property(cc.Label)
     contentLabel = null;
@@ -57,5 +58,4 @@ class MsgBoxController extends BasePrefabController {
     onStateVisibleChange(newVal) {
         this.node.active = newVal;
     }
-
 }
