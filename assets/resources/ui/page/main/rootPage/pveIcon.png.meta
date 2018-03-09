@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "e0189808-9a27-4f22-b976-b437c4927734",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "pveIcon": {
+      "ver": "1.0.3",
+      "uuid": "59f7990a-3366-4019-bb8e-8f9d4cdf8596",
+      "rawTextureUuid": "e0189808-9a27-4f22-b976-b437c4927734",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 27.5,
+      "offsetY": 10.5,
+      "trimX": 125,
+      "trimY": 36,
+      "width": 805,
+      "height": 907,
+      "rawWidth": 1000,
+      "rawHeight": 1000,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
