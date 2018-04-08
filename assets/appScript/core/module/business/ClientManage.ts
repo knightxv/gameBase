@@ -3,6 +3,7 @@ const {ccclass, property} = cc._decorator;
 
 @ccclass
 export default class ClientManage extends cc.Component {
+
     onLoad() {
         cc.game.addPersistRootNode(this.node);
         moduleManage.addModule('ClientManage', this);
@@ -18,7 +19,7 @@ export default class ClientManage extends cc.Component {
             this.showMsgBox(content);
             return;
         }
-        const messageBoxPath = 'ui/prefab/common/messageBox';
+        const messageBoxPath = 'ui/common/prefab/messageBox';
         cc.loader.loadRes(messageBoxPath, (err, prefab) => {
             if (err) {
                 cc.error(err);

@@ -1,5 +1,5 @@
-import BaseModule from './BaseModule';
+import BaseClass from '../baseClass/BaseClass';
 
-export default class BaseServiceModule extends BaseModule  {
+export default class BaseServiceModule extends BaseClass  {
 
 }

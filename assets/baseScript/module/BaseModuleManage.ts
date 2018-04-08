@@ -14,6 +14,9 @@ export default class BaseModuleManage extends BaseServiceModule {
     // 创建一个module并把他放到moduleManage的属性上，可以直接获取
     createModule(moduleName: string) {
         const self = this;
+        if (!moduleName || self[moduleName]) {
+            return;
+        }
         Object.defineProperty(self, moduleName, {
             get() {
                 return self.getModule(moduleName);
